@@ -6,6 +6,8 @@ import lombok.Getter;
  * @author ：lyj
  * @email: : iclyj@iclyj.cn
  * @date ：2019/7/31 17:58
+ *
+ * 消息队列枚举配置
  */
 @Getter
 public enum  QueueEnum {

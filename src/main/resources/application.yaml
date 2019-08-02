@@ -2,9 +2,9 @@ server:
   port: 2000
 spring:
   rabbitmq:
-    host: localhost # rabbitmqµÄÁ¬½ÓµØÖ·
-    port: 5672 # rabbitmqµÄÁ¬½Ó¶Ë¿ÚºÅ
-    virtual-host: /mall # rabbitmqµÄĞéÄâhost
-    username: mall # rabbitmqµÄÓÃ»§Ãû
-    password: mall # rabbitmqµÄÃÜÂë
-    publisher-confirms: true #Èç¹û¶ÔÒì²½ÏûÏ¢ĞèÒª»Øµ÷±ØĞëÉèÖÃÎªtrue
+    host: 118.25.26.200 # rabbitmqçš„è¿æ¥åœ°å€
+    port: 5672 # rabbitmqçš„è¿æ¥ç«¯å£å·
+    virtual-host: /mall # rabbitmqçš„è™šæ‹Ÿhost
+    username: mall # rabbitmqçš„ç”¨æˆ·å
+    password: mall # rabbitmqçš„å¯†ç 
+    publisher-confirms: true #å¦‚æœå¯¹å¼‚æ­¥æ¶ˆæ¯éœ€è¦å›è°ƒå¿…é¡»è®¾ç½®ä¸ºtrue

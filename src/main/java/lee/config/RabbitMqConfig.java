@@ -9,8 +9,6 @@ import org.springframework.context.annotation.Configuration;
  * @author ：lyj
  * @email: : iclyj@iclyj.cn
  * @date ：2019/7/31 18:09
- *
- * 消息队列配置
  */
 @Configuration
 public class RabbitMqConfig {
@@ -36,7 +34,7 @@ public class RabbitMqConfig {
     }
 
     /**
-     * 订单延迟队列队列所绑定的交换机
+     * 订单延迟队列所绑定的交换机
      */
     @Bean
     DirectExchange orderTtlDirect() {
